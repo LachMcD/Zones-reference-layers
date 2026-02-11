@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="standalone_seniorsec_2026" id="standalone_seniorsec_2026">
+	<SimpleField name="School_Name" type="string"></SimpleField>
+	<SimpleField name="Campus_Name" type="string"></SimpleField>
+	<SimpleField name="ENTITY_CODE" type="int"></SimpleField>
+	<SimpleField name="Year_Level" type="string"></SimpleField>
+	<SimpleField name="Boundary_Year" type="string"></SimpleField>
+</Schema>
+<Folder><name>standalone_seniorsec_2026</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#standalone_seniorsec_2026">
+		<SimpleData name="School_Name">Swinburne Senior Secondary College</SimpleData>
+		<SimpleData name="Campus_Name">Swinburne Senior Secondary College</SimpleData>
+		<SimpleData name="ENTITY_CODE">1736601</SimpleData>
+		<SimpleData name="Year_Level">11 to 12</SimpleData>
+		<SimpleData name="Boundary_Year">2026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>145.018122497696,-37.8354641056175 145.027395960101,-37.796638013519 145.061214816216,-37.8140313723728 145.055842866074,-37.8294492279829 145.018122497696,-37.8354641056175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#standalone_seniorsec_2026">
+		<SimpleData name="School_Name">Box Hill Senior Secondary College</SimpleData>
+		<SimpleData name="Campus_Name">Box Hill Senior Secondary College</SimpleData>
+		<SimpleData name="ENTITY_CODE">1705001</SimpleData>
+		<SimpleData name="Year_Level">10 to 12</SimpleData>
+		<SimpleData name="Boundary_Year">2026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>145.109392025016,-37.8370583244686 145.106923107042,-37.8368174602513 145.088418288302,-37.8150531800082 145.097659672047,-37.7970983908945 145.126547725409,-37.8116764788082 145.109392025016,-37.8370583244686</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#standalone_seniorsec_2026">
+		<SimpleData name="School_Name">Northern College of the Arts and Technology</SimpleData>
+		<SimpleData name="Campus_Name">Northern College of the Arts and Technology</SimpleData>
+		<SimpleData name="ENTITY_CODE">1730001</SimpleData>
+		<SimpleData name="Year_Level">10 to 12</SimpleData>
+		<SimpleData name="Boundary_Year">2026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>145.049369787995,-37.7484257040077 145.016897852883,-37.7482305950173 145.014278096977,-37.7290913962522 145.041375202088,-37.7333143818118 145.049369787995,-37.7484257040077</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

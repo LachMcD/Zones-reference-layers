@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="standalone_juniorsec_2026" id="standalone_juniorsec_2026">
+	<SimpleField name="ENTITY_CODE" type="int"></SimpleField>
+	<SimpleField name="School_Name" type="string"></SimpleField>
+	<SimpleField name="Campus_Name" type="string"></SimpleField>
+	<SimpleField name="Year_Level" type="string"></SimpleField>
+	<SimpleField name="Boundary_Year" type="string"></SimpleField>
+</Schema>
+<Folder><name>standalone_juniorsec_2026</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#standalone_juniorsec_2026">
+		<SimpleData name="ENTITY_CODE">1547901</SimpleData>
+		<SimpleData name="School_Name">Timbarra P-9 College</SimpleData>
+		<SimpleData name="Campus_Name">Timbarra P-9 College</SimpleData>
+		<SimpleData name="Year_Level">7 to 9</SimpleData>
+		<SimpleData name="Boundary_Year">2026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>145.317241650144,-38.041859871377 145.29801263229,-38.0286365886718 145.332043360769,-37.972222692306 145.347529691937,-37.9613029438521 145.379372469804,-37.9635995341383 145.33821625289,-38.0333301653197 145.317241650144,-38.041859871377</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#standalone_juniorsec_2026">
+		<SimpleData name="ENTITY_CODE">1890501</SimpleData>
+		<SimpleData name="School_Name">Doveton College</SimpleData>
+		<SimpleData name="Campus_Name">Doveton College</SimpleData>
+		<SimpleData name="Year_Level">7 to 9</SimpleData>
+		<SimpleData name="Boundary_Year">2026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>145.208439094948,-38.0220719303996 145.234142268106,-37.9672549677628 145.244114410234,-37.9598264630064 145.261787722334,-37.9847356304028 145.231196737769,-38.0168367161225 145.208439094948,-38.0220719303996</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
