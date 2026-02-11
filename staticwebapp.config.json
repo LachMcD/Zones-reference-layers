@@ -1,0 +1,6 @@
+json
+{
+  "globalHeaders": {
+    "Content-Type": "application/json"
+  }
+}
